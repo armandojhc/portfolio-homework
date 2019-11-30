@@ -2,9 +2,14 @@
 .container {
     width: 100%;
     background: #ffffff;
-    border-style: solid;
     height: 100%;
+    margin-top: 0px;
 
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777
 }
 
 h1 {border-style: solid;
@@ -15,44 +20,63 @@ h1 {border-style: solid;
     width: 20%;
     margin-left: 200px;
     margin-right: 2px;
-    clear: left;
+    margin-top: 50px;
+    float: left;
     margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .contact {
     margin: 20px;
-    border: solid;
     width: 5%;
     float: right;
+    margin-top: 80px;
+    margin-bottom: 0px;
 }
 
 .portfolio {
     margin: 20px;
-    border: solid;
     width: 5%;
     float: right;
+    margin-top: 80px;
+    margin-bottom:0px;
 }
 
 .about {
     margin: 20px;
-    border: solid;
     width: 5%;
     float: right;
+    margin-top: 80px;
+    margin-bottom: 0px;
 }
 
 .larger-box {
-    margin-top: 0px;
+    margin:0px;
     border-style: solid;
-    background: beige;
+    border-color: #cccccc;
+    border-top-width: 2px;
+    border-right-color: white;
+    border-left-color: white;
+    background-color: beige;
     width: 100%;
+    clear: both;
 }
 
 .about-me-content {
-    background: white;
-    border-style: solid;
-    height: 500px;
-    width: 70%;
+    background: #ffffff;
+    padding: 40px;
+    border-style: solid #dddddd;
+    height: 450px;
+    width: 960px;
     clear: both;
-    margin-left: 160px;
+    margin-left: 110px;
+    margin-right: 160px;
     margin-bottom: 160px;
+    margin-top: 160px;
+}
+
+.about-me-header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4aaaa5;
+    margin: 60px;
 }
