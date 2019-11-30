@@ -2,12 +2,38 @@
 .container {
     width: 100%;
     background: #ffffff;
+    border-style: solid;
 
 }
 
-h1 {border-style: solid;
+h2 {border-style: solid;
     color: White;
     background: #4aaaa5;
     padding: 20px;
     margin: 50px;
+    width: 30%;
+    margin-left: 200px;
+    clear: left;
+    margin-bottom: 2px;
+}
+
+.contact {
+    margin: 20px;
+    border: solid;
+    width: 5%;
+    float: right;
+}
+
+.portfolio {
+    margin: 20px;
+    border: solid;
+    width: 5%;
+    float: right;
+}
+
+.about {
+    margin: 20px;
+    border: solid;
+    width: 5%;
+    float: right;
 }
