@@ -1,0 +1,13 @@
+
+.container {
+    width: 100%;
+    background: #ffffff;
+
+}
+
+h1 {border-style: solid;
+    color: White;
+    background: #4aaaa5;
+    padding: 20px;
+    margin: 50px;
+}
