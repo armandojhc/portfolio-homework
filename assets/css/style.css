@@ -1,9 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+html, body {height: 100%
+
+}
 .container {
     width: 100%;
     background: #ffffff;
-    height: 100%;
+    min-height: 100%;
     margin-top: 0px;
+    overflow: auto;
 
 }
 
@@ -27,27 +35,27 @@ h1 {border-style: solid;
 }
 
 .contact {
-    margin: 20px;
     width: 5%;
     float: right;
     margin-top: 80px;
     margin-bottom: 0px;
+    margin-right:30px;
 }
 
 .portfolio {
-    margin: 20px;
     width: 5%;
     float: right;
     margin-top: 80px;
     margin-bottom:0px;
+    margin-right: 30px;
 }
 
 .about {
-    margin: 20px;
     width: 5%;
     float: right;
     margin-top: 80px;
     margin-bottom: 0px;
+    margin-right:30px;
 }
 
 .larger-box {
@@ -57,6 +65,7 @@ h1 {border-style: solid;
     border-top-width: 2px;
     border-right-color: white;
     border-left-color: white;
+    border-bottom-color: white;
     background-color: beige;
     width: 100%;
     clear: both;
@@ -66,7 +75,7 @@ h1 {border-style: solid;
     background: #ffffff;
     padding: 40px;
     border-style: solid #dddddd;
-    height: 350px;
+    height: 800px;
     width: 960px;
     clear: both;
     margin-left: 130px;
@@ -92,4 +101,11 @@ img {
     float: left;
     margin-right: 10px;
     margin-top: 3px;
+}
+
+#footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    position: relative;
+    height: 80px;
 }
