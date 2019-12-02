@@ -1,3 +1,4 @@
+/* Properties that all three pages, index.html , portfolio.html and contact.html have in common */
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +20,8 @@ p {
     color: #777777;
 }
 
-h1 {border-style: solid;
+h1 {
+    border-style: solid;
     color: White;
     background: #4aaaa5;
     padding: 20px;
@@ -70,6 +72,16 @@ h1 {border-style: solid;
     clear: both;
 }
 
+#footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    border-bottom-color: white;
+    position: relative;
+    height: 80px;
+}
+
+/* About me page content and sections */
+
 .about-me-content {
     background: #ffffff;
     padding: 40px;
@@ -102,13 +114,7 @@ img {
     margin-top: 3px;
 }
 
-#footer {
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    border-bottom-color: white;
-    position: relative;
-    height: 80px;
-}
+/* Portfolio Page content */
 
 .portfolio-content {
     background: #ffffff;
@@ -134,79 +140,124 @@ img {
 .project-1-pic {
     float: left;
     margin-bottom: 0px;
-    margin-top: 30px;
-    margin-left: 50px;
+    margin-top: 70px;
+    margin-left: 90px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .project-1 {
-    border-style: solid;
-    color: White;
     background: #4aaaa5;
+    color: white;
     padding: 20px;
     margin-top: 0px;
     line-height: 5px;
-    width: 75%;
+    width: 76%;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
     clear: left;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+
+.project-2-pic {
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 70px;
+    margin-left: 90px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .project-2 {
-    border-style: solid;
-    color: White;
     background: #4aaaa5;
+    color: White;
     padding: 20px;
-    margin: 50px;
-    width: 20%;
-    margin-left: 200px;
-    margin-right: 2px;
-    margin-top: 50px;
+    margin-top:0px;
+    line-height: 5px;;
+    width: 76%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: left;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+
+.project-3-pic {
     float: left;
     margin-bottom: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+    margin-left: 90px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .project-3 {
-    border-style: solid;
-    color: White;
     background: #4aaaa5;
+    color: White;
     padding: 20px;
-    margin: 50px;
-    width: 20%;
-    margin-left: 200px;
-    margin-right: 2px;
-    margin-top: 50px;
+    margin-top:0px;
+    line-height: 5px;;
+    width: 76%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: left;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+
+.project-4-pic {
     float: left;
     margin-bottom: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+    margin-left: 90px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .project-4 {
-    border-style: solid;
-    color: White;
     background: #4aaaa5;
+    color: White;
     padding: 20px;
-    margin: 50px;
-    width: 20%;
-    margin-left: 200px;
-    margin-right: 2px;
-    margin-top: 50px;
+    margin-top:0px;
+    line-height: 5px;;
+    width: 76%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: left;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+
+.project-5-pic {
     float: left;
     margin-bottom: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+    margin-left: 90px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .project-5 {
-    border-style: solid;
-    color: White;
     background: #4aaaa5;
+    color: White;
     padding: 20px;
-    margin: 50px;
-    width: 20%;
-    margin-left: 200px;
-    margin-right: 2px;
-    margin-top: 50px;
+    margin-top:0px;
+    line-height: 5px;;
+    width: 76%;
     float: left;
-    margin-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    clear: left;
+    position: absolute;
+    top: 120px;
+    left: 0px;
 }
