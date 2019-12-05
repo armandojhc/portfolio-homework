@@ -67,7 +67,7 @@ h1 {
     border-right-color: white;
     border-left-color: white;
     border-bottom-color: white;
-    background: beige;
+    background: url("../images/vintage-concrete.png");
     width: 100%;
     clear: both;
 }
@@ -86,7 +86,7 @@ h1 {
     background: #ffffff;
     padding: 40px;
     border-style: solid #dddddd;
-    height: 800px;
+    height: 400px;
     width: 960px;
     clear: both;
     margin-left: 130px;
